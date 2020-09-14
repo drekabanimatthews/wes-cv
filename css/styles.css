@@ -19,7 +19,7 @@ h1 {
 h3 {
   font-family: 'Josefin Slab', serif;
   color: #3b5249;
-  position: sticky;
+  position: relative;
   z-index: 6;
 }
 
@@ -27,13 +27,7 @@ div {
   margin-top: 0;
 }
 
-.sunshine {
-  height: 620px;
-  width: 100%;
-  position: absolute;
-  right: 0;
-  z-index: 3;
-}
+
 
 .index-top {
   margin: 0 auto;
@@ -45,9 +39,12 @@ div {
 
 .cloudtop {
   position: absolute;
-  right: 380px;
-  top: 85px;
+  top: 25%;
+  left: 70%;
+  display: inline-block;
 }
+
+
 
 .cloudbottom {
   position: absolute;
@@ -71,7 +68,7 @@ div {
 }
 
 .mountain {
-  position: sticky;
+  position: relative;
 }
 
 .index-middle {
