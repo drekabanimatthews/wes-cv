@@ -6,81 +6,66 @@ Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933
 *****************************************************************************/
 /****tags********************************************************************/
 body {
-  margin: 0;
+  background-color: #faf3dd;
   position: static;
 }
 
 h1 {
   font-family: 'Josefin Slab', serif;
   color: #382933;
-  z-index: 6;
 }
 
-h3 {
-  font-family: 'Amatic SC', cursive;
-  color: #3b5249;
-  position: relative;
-  z-index: 6;
+a {
+  font-family: 'Josefin Slab', serif;
+  color: #68b0ab;
 }
 
-div {
-  margin-top: 0;
+.navigation {
+  padding: 5% 5%;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
+a:link, a:visited {
+  background-color: #faf3dd;
+  color: #a4b494;
+  padding: 1px 10px;
+  margin: 4px;
+  border: solid 1px;
+  border-color: #a4b494;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
 
+a:hover {
+  background-color: #ff7e67;
+  color: #faf3dd;
+  border: none;
+}
 
-.index-top {
-  margin: 0 auto;
-  position: relative;
-  padding-top: 100px;
-  background-color: #68b0ab;
+.title {
+  position: absolute;
+  top: 30%;
+  right: 25%;
   text-align: center;
 }
 
-.cloudtop {
+.title-h2 {
+  font-family: 'Amatic SC', cursive;
+  color: #3b5249;
+}
+
+.brush-teal {
   position: absolute;
-  top: 25%;
-  left: 70%;
-  display: inline-block;
+  right: 45%;
+  z-index: -1
 }
 
-
-
-.cloudbottom {
+.main-one {
   position: absolute;
-}
-
-.birds1 {
-  height: 25px;
-  width: 50px;
-  position: absolute;
-  right: 500px;
-  bottom: 150px;
-}
-
-.birds2 {
-  height: 30px;
-  width: 55px;
-  z-index: 2;
-  position: absolute;
-  top: 280px;
-  left: 400px;
-}
-
-.mountain {
-  position: relative;
-}
-
-.index-middle {
-  margin: 0 auto 0 auto;
-  height: 200px;
-  width: auto;
-  background-color: #8fc0a9;
-}
-
-.index-bottom {
-  margin: 0 auto 0 auto;
-  height: 200px;
-  width: auto;
-  background-color: #8fc0a9;
+  top: 40%;
+  left: 22%;
 }
