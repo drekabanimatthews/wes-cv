@@ -7,20 +7,32 @@ Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933
 /****tags********************************************************************/
 body {
   margin: 0;
+  position: static;
 }
 
 h1 {
   font-family: 'Amatic SC', cursive;
   color: #382933;
+  z-index: 6;
 }
 
 h3 {
   font-family: 'Josefin Slab', serif;
   color: #3b5249;
+  position: sticky;
+  z-index: 6;
 }
 
 div {
   margin-top: 0;
+}
+
+.sunshine {
+  height: 620px;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  z-index: 3;
 }
 
 .index-top {
@@ -59,7 +71,7 @@ div {
 }
 
 .mountain {
-  position: static;
+  position: sticky;
 }
 
 .index-middle {
@@ -73,5 +85,5 @@ div {
   margin: 0 auto 0 auto;
   height: 200px;
   width: auto;
-  background-color: #c8d5b9;
+  background-color: #8fc0a9;
 }
