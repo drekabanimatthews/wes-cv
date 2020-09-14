@@ -1,0 +1,77 @@
+/****Pallet******************************************************************
+Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933
+        #99f3bd  #68b0ab  #ff4b5c  #8fc0a9  #ea5455  #3b5249
+        #d2f6c5  #006a71  #056674  #c8d5b9  #decdc3  #519872
+        #f6f7d4  #ff7e67  #66bfbf  #faf3dd  #e5e5e5  #a4b494
+*****************************************************************************/
+/****tags********************************************************************/
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  color: #382933;
+}
+
+h3 {
+  font-family: 'Josefin Slab', serif;
+  color: #3b5249;
+}
+
+div {
+  margin-top: 0;
+}
+
+.index-top {
+  margin: 0 auto;
+  position: relative;
+  padding-top: 100px;
+  background-color: #68b0ab;
+  text-align: center;
+}
+
+.cloudtop {
+  position: absolute;
+  right: 380px;
+  top: 85px;
+}
+
+.cloudbottom {
+  position: absolute;
+}
+
+.birds1 {
+  height: 25px;
+  width: 50px;
+  position: absolute;
+  right: 500px;
+  bottom: 150px;
+}
+
+.birds2 {
+  height: 30px;
+  width: 55px;
+  z-index: 2;
+  position: absolute;
+  top: 280px;
+  left: 400px;
+}
+
+.mountain {
+  position: static;
+}
+
+.index-middle {
+  margin: 0 auto 0 auto;
+  height: 200px;
+  width: auto;
+  background-color: #8fc0a9;
+}
+
+.index-bottom {
+  margin: 0 auto 0 auto;
+  height: 200px;
+  width: auto;
+  background-color: #c8d5b9;
+}
