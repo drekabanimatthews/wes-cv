@@ -11,13 +11,13 @@ body {
 }
 
 h1 {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Josefin Slab', serif;
   color: #382933;
   z-index: 6;
 }
 
 h3 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Amatic SC', cursive;
   color: #3b5249;
   position: relative;
   z-index: 6;
