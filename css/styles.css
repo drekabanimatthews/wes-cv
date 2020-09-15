@@ -6,69 +6,62 @@ Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933
 *****************************************************************************/
 /****tags********************************************************************/
 body {
-  margin: 0;
-  padding: 0;
   background-color: #faf3dd;
-  position: static;
+  position: relative;
 }
 
 h1 {
-  font-family: 'Josefin Slab', serif;
   color: #382933;
-}
-
-a {
   font-family: 'Josefin Slab', serif;
-  color: #68b0ab;
 }
 
-.navigation {
-  padding: 5% 5%;
-  text-align: right;
-  position: fixed;
-  top: 0;
-  right: 0;
+h2 {
+  color: #382933;
+  font-family: 'Amatic SC', serif;
 }
 
 a:link, a:visited {
   background-color: #faf3dd;
   color: #68b0ab;
-  padding: 1px 10px;
-  margin: 4px;
   border: solid 1px;
   border-color: #68b0ab;
+  margin: 5px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: block;
 }
 
-a:hover {
+a:hover, a:active {
   background-color: #ff7e67;
   color: #faf3dd;
   border: none;
 }
 
+.nav {
+  padding: 5% 5%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
 .title {
-  position: absolute;
-  top: 30%;
-  right: 25%;
   text-align: center;
+  color: #382933;
+  position: absolute;
+  top: 20%;
+  left: 16%;
+  bottom: 50%;
   z-index: 1;
 }
 
-.title-h2 {
-  font-family: 'Amatic SC', cursive;
-  color: #382933;
-}
-
 .title-pictures {
-position: relative;
-
+  position: relative;
 }
 
 .brush-teal {
-  /*position: absolute;
-  right: 45%;*/
+  position: static;
   padding: 10px;
   z-index: -1
 }
