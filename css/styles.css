@@ -6,6 +6,8 @@ Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933
 *****************************************************************************/
 /****tags********************************************************************/
 body {
+  margin: 0;
+  padding: 0;
   background-color: #faf3dd;
   position: static;
 }
@@ -30,11 +32,11 @@ a {
 
 a:link, a:visited {
   background-color: #faf3dd;
-  color: #a4b494;
+  color: #68b0ab;
   padding: 1px 10px;
   margin: 4px;
   border: solid 1px;
-  border-color: #a4b494;
+  border-color: #68b0ab;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -51,21 +53,28 @@ a:hover {
   top: 30%;
   right: 25%;
   text-align: center;
+  z-index: 1;
 }
 
 .title-h2 {
   font-family: 'Amatic SC', cursive;
-  color: #3b5249;
+  color: #382933;
+}
+
+.title-pictures {
+position: relative;
+
 }
 
 .brush-teal {
-  position: absolute;
-  right: 45%;
+  /*position: absolute;
+  right: 45%;*/
+  padding: 10px;
   z-index: -1
 }
 
 .main-one {
   position: absolute;
-  top: 40%;
-  left: 22%;
+  top: 35%;
+  right: 35%;
 }
