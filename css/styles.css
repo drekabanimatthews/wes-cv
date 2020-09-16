@@ -50,9 +50,8 @@ a:hover, a:active {
   text-align: center;
   color: #382933;
   position: absolute;
-  top: 20%;
-  left: 16%;
-  bottom: 50%;
+  top: 10%;
+  left: 54%;
   z-index: 1;
 }
 
@@ -60,14 +59,32 @@ a:hover, a:active {
   position: relative;
 }
 
-.brush-teal {
+.brush-green {
   position: static;
   padding: 10px;
   z-index: -1
 }
 
-.main-one {
+.first-main {
   position: absolute;
   top: 35%;
   right: 35%;
+}
+
+.middle-pictures {
+  position: relative;
+}
+
+.middle-text {
+  position: absolute;
+  top: 40%;
+  left: 2%;
+}
+
+.brush-blue {
+  position: relative;
+  top: 40%;
+  left: 35%;
+  padding: 10px;
+  z-index: -1
 }
