@@ -77,14 +77,53 @@ a:hover, a:active {
 
 .middle-text {
   position: absolute;
-  top: 40%;
+  top: 65%;
   left: 2%;
+  width: 38%;
+  height: auto;
+}
+
+.brush-teal {
+  position: relative;
+  top: 40%;
+  left: 36%;
+  padding: 10px;
+  z-index: -1
+}
+
+.second-main {
+  width: 60%;
+  position: absolute;
+  top: 12%;
+  right: 2%;
+}
+
+.bottom-pictures {
+position: relative;
+}
+
+.bottom-text {
+position: absolute;
+right: 20%;
+left: 20%;
+text-align: center;
 }
 
 .brush-blue {
-  position: relative;
-  top: 40%;
-  left: 35%;
-  padding: 10px;
-  z-index: -1
+  width: 60%;
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  left: 15%;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  z-index: -1;
+}
+
+.third-main {
+  width: 70%;
+  margin: 0 20% 0 20%;
+  position: absolute;
 }
