@@ -1,13 +1,14 @@
 /****Pallet******************************************************************
-Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933
-        #99f3bd  #68b0ab  #ff4b5c  #8fc0a9  #ea5455  #3b5249
-        #d2f6c5  #006a71  #056674  #c8d5b9  #decdc3  #519872
+Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933  #f0a500
+        #99f3bd  #68b0ab  #ff4b5c  #8fc0a9  #ea5455  #3b5249  #e94560
+        #d2f6c5  #006a71  #056674  #c8d5b9  #decdc3  #519872  #393b44
         #f6f7d4  #ff7e67  #66bfbf  #faf3dd  #e5e5e5  #a4b494
 *****************************************************************************/
 /****tags********************************************************************/
 body {
+  margin: 0;
+  padding: 0;
   background-color: #faf3dd;
-  position: relative;
 }
 
 h1 {
@@ -20,14 +21,67 @@ h2 {
   font-family: 'Amatic SC', serif;
 }
 
+h2.middle-title {
+  color: #382933;
+  font-family: 'Josefin Slab', serif;
+}
+
+h3 {
+  color: #382933;
+  font-family: 'Amatic SC', serif;
+}
+
+a {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+#nav-aboutme {
+}
+#nav-work {
+
+}
+#nav-education {
+
+}
+#nav-contact {
+
+}
+#nav-aboutme {
+
+}
+#nav-work:hover, #nav-work:active {
+  background-color: #f0a500;
+  color: #faf3dd;
+  border: solid 1px;
+  border-radius: 4em 8em 10em 20em / 20em 10em 3em 6em;
+}
+#nav-education:hover, #nav-education:active {
+  background-color: #e94560;
+  color: #faf3dd;
+  border: solid 1px;
+  border-radius: 3em 6em 3em 6em / 4em 8em 4em 8em;
+}
+#nav-contact:hover, #nav-contact:active {
+  background-color: #393b44;
+  color: #faf3dd;
+  border: solid 1px;
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+
 a:link, a:visited {
   background-color: #faf3dd;
   color: #68b0ab;
   border: solid 1px;
+  border-radius: 10px;
   border-color: #68b0ab;
-  margin: 5px;
-  padding: 10px 15px;
-  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 90%;
+  height: auto;
+  padding: 10%;
   text-decoration: none;
   display: block;
 }
@@ -37,98 +91,143 @@ a:hover, a:active {
   color: #faf3dd;
   border: none;
 }
-
-.nav {
-  padding: 5% 5%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 2;
-}
-
-.title {
-  text-align: center;
-  color: #382933;
-  position: absolute;
-  top: 10%;
-  left: 54%;
-  z-index: 1;
-}
-
-.title-pictures {
+/**********************************top level index***********************************/
+.aboutme-page {
   position: relative;
-}
-
-.brush-green {
-  position: static;
-  padding: 10px;
-  z-index: -1
-}
-
-.first-main {
-  position: absolute;
-  top: 35%;
-  right: 35%;
-}
-
-.middle-pictures {
-  position: relative;
-}
-
-.middle-text {
-  position: absolute;
-  top: 65%;
-  left: 2%;
-  width: 38%;
+  min-width: 80%;
   height: auto;
+  margin: 1%;
 }
 
-.brush-teal {
+/**********************************top level index***********************************/
+.top-container {
+  min-width: 80%;
+  min-height: 100px;
   position: relative;
-  top: 35%;
-  left: 38%;
-  padding: 10px;
-  z-index: -1
+  margin: 1%;
 }
 
-.second-main {
-  width: 770px;
+.middle-container {
+  min-width: 80%;
+  min-height: 100px;
+  position: relative;
+  margin: 1%;
+}
+
+.bottom-container {
+  min-width: 80%;
+  min-height: 100px;
+  position: relative;
+  margin: 1%;
+  text-align: center;
+}
+/**********************************navigation***********************************/
+.navigation {
+position: fixed;
+top: 5%;
+right: 5%;
+width: 14%;
+height: auto;
+z-index: 3;
+padding: 1%;
+text-align: center;
+text-decoration: none;
+}
+/**********************************level 1 index*************************************/
+.main-image-1 {
+  width: 45%;
+  height: auto;
   position: absolute;
-  top: 12%;
-  right: 2%;
+  top: 45%;
+  left: 20%;
 }
 
-.bottom-pictures {
-position: relative;
+.main-image-2 {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: auto;
+  right: 10%;
+  bottom: 12%;
 }
 
-.bottom-text {
+.main-image-3 {
+  position: relative;
+  bottom: 1%;
+  width: 60%;
+  height: auto;
+  margin: 0;
+}
+
+.top-text {
 position: absolute;
-right: 20%;
-left: 20%;
+top: 24%;
+right: 24%;
+width: auto;
+height: auto;
 text-align: center;
 }
 
-.brush-blue {
-  width: 60%;
-  position: absolute;
-  top: 70%;
-  right: 20%;
-  left: 15%;
-  padding-top: 10%;
-  padding-right: 10%;
-  padding-bottom: 0%;
-  padding-left: 10%;
+.middle-text {
+  position: relative;
+  left: 1%;
+  max-width: 30%;
+  height: auto;
+  margin: auto 0 auto 0;
+  padding: 5%;
+
+}
+
+.bottom-text {
+  position: relative;
+  top: 1%;
+  width: auto;
+  height: auto;
+  padding: 5%;
+  text-align: center;
+}
+/**********************************level (-1) index*************************************/
+.main-brush-1 {
+  position: relative;
+  top: 1%;
+  right: 1%;
+  width: 45%;
+  height: auto;
+  margin: 0;
+  padding: 5%;
   z-index: -1;
 }
 
-.third-main {
-  width: 70%;
-  margin: 0;
-  padding:10% 0 0 0;
+.main-brush-2 {
   position: absolute;
-  top: 0;
-  right: 15%;
-  bottom:0;
-  left:auto;
+  top: auto;
+  right: 0;
+  bottom: 1%;
+  left: auto;
+  width: 55%;
+  height: auto;
+  margin: auto;
+  padding: 5%;
+  z-index: -1;
 }
+
+.main-brush-3 {
+  display: block;
+  position: absolute;
+  top: 42%;
+  right: 25%;
+  bottom: auto;
+  width: 45%;
+  height: auto;
+  z-index: -1;
+}
+/**********************************footer*************************************/
+.copyright {
+
+}
+/**********************************top level - work*************************************/
+.work-container {}
+
+.work-brush {}
+
+.work-image {}
