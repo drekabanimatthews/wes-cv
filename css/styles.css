@@ -1,9 +1,8 @@
-/****Pallet******************************************************************
-Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933  #f0a500
-        #99f3bd  #68b0ab  #ff4b5c  #8fc0a9  #ea5455  #3b5249  #e94560
-        #d2f6c5  #006a71  #056674  #c8d5b9  #decdc3  #519872  #393b44
-        #f6f7d4  #ff7e67  #66bfbf  #faf3dd  #e5e5e5  #a4b494
-*****************************************************************************/
+/****Pallet*******************************************************************/
+/*Colors: #28df99  #ecf4f3  #e0ece4  #68b0ab  #2d4059  #382933  #f0a500
+          #99f3bd  #68b0ab  #ff4b5c  #8fc0a9  #ea5455  #3b5249  #e94560
+          #d2f6c5  #006a71  #056674  #c8d5b9  #decdc3  #519872  #393b44
+          #f6f7d4  #ff7e67  #66bfbf  #faf3dd  #e5e5e5  #a4b494  */
 /****tags********************************************************************/
 body {
   margin: 0;
@@ -36,42 +35,58 @@ a {
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-}
-
-#nav-aboutme {
-}
-#nav-work {
 
 }
-#nav-education {
-
+/***************************stupid shit****************************************/
+.navigation {
+  width: 100px;
+  height: 100px;
+  transition: width 1s;
 }
-#nav-contact {
 
+#nav-aboutme {transition-timing-function: ease;}
+#nav-work {transition-timing-function: ease;}
+#nav-education {transition-timing-function: ease;}
+#nav-contact {transition-timing-function: ease;}
+
+.navigation:hover {
+  width: 20%;
 }
-#nav-aboutme {
-
+#nav-aboutme:hover, #nav-aboutme:active {
+  background-color: #006a71;
+  color: #faf3dd;
+  border: solid 1px;
+  border-radius: 2em 8em 15em 30em / 10em 5em 12em 14em;
+  font-family: 'Amatic SC', serif;
+  font-size: 2em;
 }
 #nav-work:hover, #nav-work:active {
   background-color: #f0a500;
   color: #faf3dd;
   border: solid 1px;
   border-radius: 4em 8em 10em 20em / 20em 10em 3em 6em;
+  font-family: 'Amatic SC', serif;
+  font-size: 2em;
 }
 #nav-education:hover, #nav-education:active {
   background-color: #e94560;
   color: #faf3dd;
   border: solid 1px;
   border-radius: 3em 6em 3em 6em / 4em 8em 4em 8em;
+  font-family: 'Amatic SC', serif;
+  font-size: 2em;
 }
 #nav-contact:hover, #nav-contact:active {
   background-color: #393b44;
   color: #faf3dd;
   border: solid 1px;
   border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+  font-family: 'Amatic SC', serif;
+  font-size: 2em;
 }
 
 a:link, a:visited {
+  font-family: 'Josefin Slab', serif;
   background-color: #faf3dd;
   color: #68b0ab;
   border: solid 1px;
