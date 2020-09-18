@@ -35,22 +35,46 @@ a {
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
+}
 
+hr {
+  border: dotted #a3d2ca 10px;
+  border-bottom: none;
+  width: 2%;
+}
+#footer-line {
+  border: solid #a3d2ca 1px;
+  width: 100%;
 }
 /***************************stupid shit****************************************/
-.navigation {
+.nav-aboutme {
   width: 100px;
   height: 100px;
-  transition: width 1s;
+  transition: width 2s, height 2s, transform 2s;
+}
+.nav-work {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.nav-education {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.nav-contact {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
 }
 
-#nav-aboutme {transition-timing-function: ease;}
-#nav-work {transition-timing-function: ease;}
-#nav-education {transition-timing-function: ease;}
-#nav-contact {transition-timing-function: ease;}
+#nav-aboutme {transition-timing-function: ease, transform 2s;}
+#nav-work {transition-timing-function: ease, transform 2s;}
+#nav-education {transition-timing-function: ease, transform 2s;}
+#nav-contact {transition-timing-function: ease, transform 2s;}
 
 .navigation:hover {
-  width: 20%;
+  width: 15%;
 }
 #nav-aboutme:hover, #nav-aboutme:active {
   background-color: #006a71;
@@ -59,6 +83,7 @@ a {
   border-radius: 2em 8em 15em 30em / 10em 5em 12em 14em;
   font-family: 'Amatic SC', serif;
   font-size: 2em;
+  transform: rotate(-10deg);
 }
 #nav-work:hover, #nav-work:active {
   background-color: #f0a500;
@@ -67,6 +92,7 @@ a {
   border-radius: 4em 8em 10em 20em / 20em 10em 3em 6em;
   font-family: 'Amatic SC', serif;
   font-size: 2em;
+  transform: rotate(10deg);
 }
 #nav-education:hover, #nav-education:active {
   background-color: #e94560;
@@ -75,6 +101,7 @@ a {
   border-radius: 3em 6em 3em 6em / 4em 8em 4em 8em;
   font-family: 'Amatic SC', serif;
   font-size: 2em;
+  transform: rotate(-10deg);
 }
 #nav-contact:hover, #nav-contact:active {
   background-color: #393b44;
@@ -83,6 +110,7 @@ a {
   border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
   font-family: 'Amatic SC', serif;
   font-size: 2em;
+  transform: rotate(10deg);
 }
 
 a:link, a:visited {
